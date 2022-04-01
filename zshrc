@@ -98,9 +98,14 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias zsh-config="vi ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ohmyzsh="mate ~/.oh-my-zsh"
 alias afind="alias-finder"
 alias restart-term="exec zsh -l"
+
+# Selena's aliases
+alias ag="alias | grep"
+alias gcam="git add . && git commit -m"
+
 
 [ -f /opt/dev/dev.sh ] && source /opt/dev/dev.sh
 
